@@ -37,7 +37,7 @@ The following functionality is available in the pane:
 
 * [Search](#search) – Enter a search string of alphanumeric characters to search in the Data Hub Catalog. The search will be performed on services, entities, attributes, associations, and descriptions in the Catalog.
 
-* [Filter](#search) – By default, the search will be performed on assets in the **Production** environment. Click the **Filter** icon to include all other environments such as test, acceptance and also the Mendix free app environment **Sandbox** in the search.
+* [Filter](#search) – By default, the search will be performed on assets in the **Production** environment. Click the **Filter** icon to **Show development environments** such as **Test**, **Acceptance**, and the Mendix Free App environment **Sandbox** in the search.
 
 * [Search results](#viewing) – The search results will show all the assets in the catalog that satisfy the search string. For each "hit" the information this is displayed includes the service name, service version, environment that the service was deployed to, and the assets matching the search string. If attributes or associations satisfy the search criteria, they will be displayed. You can drag the entity from the search results into your domain model and it will be displayed as an [external entity](external-entities):
 
@@ -51,7 +51,7 @@ When no search string has been specified in the **Data Hub** pane, the **App** s
 
 {{% image_container width="300" %}}![Project Section](attachments/data-hub-pane/project-section.png){{% /image_container %}}
 
-To add entities to your project model, see [Adding an External Entity to a Project](external-entities#adding-external-entities).
+To add entities to your app model, see [Adding an External Entity to a Project](external-entities#adding-external-entities).
 
 ## 3 Searching the Data Hub Catalog {#search}
 
@@ -67,7 +67,7 @@ The search strings must be a minimum of 3 alphanumeric characters. Punctuation c
 {{% /alert %}}
 
 ### 3.2 Service Environments
-By default, the search will be performed on assets in the **Production** environment. To include all other environments such as test, acceptance, and also the Mendix free app environment, **Sandbox** in the search, click the **Filter** icon and check **Show development environments**:
+By default, the search will be performed on assets in the **Production** environment. To include all other environments such as **Test**, **Acceptance**, and the Mendix Free App environment, **Sandbox** in the search, click the **Filter** icon and check **Show development environments**:
 
 {{% image_container width="300" %}}![Filter Icon](attachments/data-hub-pane/filter-icon.png){{% /image_container %}}
 

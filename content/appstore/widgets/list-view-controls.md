@@ -8,7 +8,7 @@ tags: ["marketplace", "marketplace component", "widget", "list view control", "c
 
 ## 1 Introduction
 
-The [List View Controls](https://appstore.home.mendix.com/link/app/105694/) enable filtering and searching a list view with the database and XPath data sources.
+The [List View Controls](https://marketplace.mendix.com/link/component/105694/) enable filtering and searching a list view with the database and XPath data sources.
 
 These are the available list view widgets:
 
@@ -18,6 +18,12 @@ These are the available list view widgets:
 * [Header sort](#header-sort) – Add sorting behavior to the headers of a list view.
 * [Pagination](#pagination) – Adds bootstrap like paging to a list view and page numbers similar to in-built data grid
 * [Text box search](#text-box-search) – Adds an interactive search box to all of your list view
+
+{{% alert type="warning" %}}
+
+If an entity in a list view has an attribute populated by a microflow, it will cause an error.
+
+{{% /alert %}}
 
 ### 1.1 Demo App
 
